@@ -1,0 +1,9 @@
+### VisualStudo ###
+.vscode/
+
+### NPM ###
+package-lock.json
+node_modules/
+
+### logs ###
+*.log

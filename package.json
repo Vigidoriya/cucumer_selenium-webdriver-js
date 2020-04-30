@@ -1,0 +1,20 @@
+{
+  "name": "bdd_demo_js",
+  "version": "1.0.0",
+  "description": "BDD Demo",
+  "scripts": {
+    "test_all_scenarios": "./node_modules/.bin/cucumber-js",
+    "test_with_tags": "./node_modules/.bin/cucumber-js --tags @table",
+    "test_with_format": "./node_modules/.bin/cucumber-js --format usage",
+    "test_all_scenarios_parallel": "./node_modules/.bin/cucumber-js  --parallel 3"
+   
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
