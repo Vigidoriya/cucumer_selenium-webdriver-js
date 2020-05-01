@@ -4,7 +4,7 @@ const { expect } = require('chai');
 const HomePage = require(`../../src/pages/homePage`);
 const ResultPage = require(`../../src/pages/resultPage`);
 
-Given('the user (?:opens|navigates to) the Google search page', async function () {
+Given(/^the user (?:opens|navigates to) the Google search page$/, async function () {
     await new HomePage().open();
 });
 

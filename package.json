@@ -4,7 +4,7 @@
   "description": "BDD Demo",
   "scripts": {
     "test_all_scenarios": "./node_modules/.bin/cucumber-js",
-    "test_with_tags": "./node_modules/.bin/cucumber-js --tags @table",
+    "test_with_tags": "./node_modules/.bin/cucumber-js --tags \"@all and not (@ignore or @single)\"",
     "test_with_format": "./node_modules/.bin/cucumber-js --format usage",
     "test_all_scenarios_parallel": "./node_modules/.bin/cucumber-js  --parallel 3"
    
